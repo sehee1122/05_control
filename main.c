@@ -1,8 +1,9 @@
-#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int main(int argc, char** argv) {
+int main(int argc, char *argv[]) {
 	
 	// Practice 05-1
 	
@@ -35,11 +36,13 @@ int main(int argc, char** argv) {
 	printf("input a number :");
 	scanf("%d", &input3);
 	
-	if (input3 > 0)
+	if (input3 > 0) {
 		printf("positive\n");
+	}
 		
-	else if (input3 < 0)
+	else if (input3 < 0) {
 		printf("negative\n");
+	}
 	
 	else
 		printf("zero\n");	
